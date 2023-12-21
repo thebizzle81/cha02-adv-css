@@ -1,4 +1,4 @@
-/* 2023 12 21 04:01 */
+/* 2023 12 21 05:04 */
 
 * {
   box-sizing: border-box;
@@ -47,6 +47,8 @@ header h1 {
   flex-direction: column; 
   flex-flow: row; 
   width: 70%;
+  padding: 10px;
+  border: 5px inset black;
 }
 
 header h2 {
@@ -56,6 +58,8 @@ header h2 {
   flex-direction: column; 
   flex-flow: row; 
   width: 70%;
+  padding: 10px;
+  border: 5px double black;
 }
 
 header p {
@@ -80,12 +84,16 @@ nav {
 
 nav a {
   color: #13293d;
+  margin: 5px;
   padding: 14px 20px;
-  border-width: 40px;
-  border-color: aqua;
+  border-width: 5px;
+  border-style: dotted;
+  border-color: rgb(47, 155, 155);
   text-decoration: none;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 body {
