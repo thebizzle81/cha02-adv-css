@@ -77,11 +77,11 @@ nav {
 nav a {
   color: #13293d;
   padding: 14px 20px;
-  /* border-width: 10px;
-  border-color: aqua; */
+  border-width: 40px;
+  border-color: aqua;
   text-decoration: none;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 body {
@@ -89,12 +89,12 @@ body {
   margin: 0;
 }
 
-aside {
+/* aside {
   flex: 1;
   background-color: #95852b;
   padding: 10px;
   text-align: center;
-}
+} */
 
 main {
   display: flex;
@@ -135,8 +135,37 @@ main section header {
 .card img {
   width: 100%;
   min-width: 400px;
+  max-width: 600px;
 }
 
 .card p {
   font-size: 20px;
+  text-align: left;
+}
+
+.list1 {
+  text-align: left;
+  font-size: larger;
+}
+
+/* section .self p {
+  font-size: 80px;
+} */
+
+footer {
+  text-align: center;
+  background: #34b77c;
+  padding: 20px;
+  font-size: 20px ;
+}
+
+footer h3 img {
+  width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
 }
