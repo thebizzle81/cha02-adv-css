@@ -17,7 +17,7 @@ header {
   /* Forces elements to the next line if they don't fit */
   
   flex-wrap: wrap;
-  text-align: center;
+  /* text-align: center; */
   justify-content: space-between;
   padding: 20px;
   background: #d0e76d;
@@ -33,11 +33,11 @@ header img {
   background: #b7bd3a;
   color: #fff;
   width: 70%;
-  text-align: center;
+  /* text-align: center; */
 }
 
 header h1 {
-  text-align: center;
+  /* text-align: center; */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column; 
@@ -69,18 +69,23 @@ The flex container becomes flexible
 */
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: #8dde62;
+  /* border-width: 10px;
+  border-color: aqua; */
 }
 
 nav a {
   color: #13293d;
   padding: 14px 20px;
+  /* border-width: 10px;
+  border-color: aqua; */
   text-decoration: none;
   text-align: center;
+  font-size: 40px;
 }
 
 body {
-  font-family: Arial;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
 }
 
@@ -96,20 +101,22 @@ main {
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
   margin-top: 2%;
+  background: #d3d849;
 }
 
-.main-header {
+main header {
   display: flex;
   /* Forces elements to the next line if they don't fit */
-  
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 60px;
-  background: #13293d;
+  background: #d3d849;
   color: #fff;
 }
 
-
+main section header {
+  font-size: 30px;
+}
 
 .card {
   flex: 1 0 0;
@@ -121,11 +128,15 @@ main {
 
 .card header {
   padding: 20px;
-  background: #13293d;
-  color: #fff;
+  background: #34b77c;
+  color: #0c0404;
 }
 
 .card img {
   width: 100%;
   min-width: 400px;
+}
+
+.card p {
+  font-size: 20px;
 }
