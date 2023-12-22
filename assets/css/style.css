@@ -1,4 +1,4 @@
-/* 2023 12 21 05:04 */
+/* 2023 12 21 11:28 */
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,11 @@
   background: #dce094;
 }
 
-/* header {
+/* I hope you are ok with bright colors! I worked with African and Brazilian musicians so I felt it was only fitting to rock the bright yellow and green! */
+
+/* Decided to go a different way with my headers. Had some issues with text-align for a while. I probably have a bunch of excess in the header selectors, but as I changed styles quite a bit it helped me to keep extra material for possible later use.
+
+header {
   padding: 40px;
   text-align: center;
   background: #f3f2b3;
@@ -18,8 +22,6 @@
 
 header {
   display: flex;
-  /* Forces elements to the next line if they don't fit */
-  
   flex-wrap: wrap;
   /* text-align: center; */
   justify-content: space-between;
@@ -71,10 +73,6 @@ header p {
   color: #fff; */
 }
 
-/* 
-What happens when we set the display property to flex?
-The flex container becomes flexible
-*/
 nav {
   display: flex;
   background-color: #78e0b1;
@@ -95,6 +93,7 @@ nav a {
   font-weight: bold;
   font-style: oblique;
 }
+
 /* I got hover to work! woohoo! */
 nav a:hover {
   background-color: #78e0b1;
@@ -115,7 +114,7 @@ body {
 
 main {
   display: flex;
-  /* Forces elements to the next line if they don't fit */
+  
   flex-wrap: wrap;
   margin-top: 2%;
   background: #e0e3a3;
@@ -123,7 +122,7 @@ main {
 
 main header {
   display: flex;
-  /* Forces elements to the next line if they don't fit */
+  
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 60px;
@@ -166,7 +165,8 @@ main section header {
   font-size: larger;
 }
 
-/* section .self p {
+/* Not exactly sure what I was trying to do here...
+section .self p {
   font-size: 80px;
 } */
 
@@ -181,6 +181,7 @@ footer h3 img {
   width: 30px;
 }
 
+/* I am honestly still figuring out media elements, but it works for now, so I'm leaving it in */
 @media screen and (max-width: 768px) {
   main,
   nav {
